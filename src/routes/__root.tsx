@@ -78,7 +78,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "ColorForge Walls" },
+      { title: "   Wall Painting Services in Hyderabad | Interior & Exterior | ColourForge Walls" },
       { name: "description", content: "Professional painting and finishing" },
       { name: "author", content: "Lovable" },
       { property: "og:title", content: "ColorForge Walls" },
