@@ -1,0 +1,5 @@
+- [x] Replace contact placeholders with owner-provided details without changing appearance.
+- [x] Verify contact links and estimate submission.
+- [x] Check security and request publishing.
+- [x] Add five-star customer ratings without changing the existing website styling.
+- [x] Verify saved ratings and submission from the website.
