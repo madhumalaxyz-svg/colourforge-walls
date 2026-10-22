@@ -25,12 +25,12 @@ const PHONE = businessContact.phone;
 const WHATSAPP = businessContact.whatsapp;
 const EMAIL = businessContact.email;
 const serviceImages = [
-  image0.url,
-  image1.url,
-  image2.url,
-  image3.url,
-  image4.url,
-  image5.url,
+  image0,
+  image1,
+  image2,
+  image3,
+  image4,
+  image5,
 ];
 const services = [
   ["Interior painting", "Bedrooms, living areas, kitchens, ceilings, and complete interiors.", "01"],
@@ -42,11 +42,11 @@ const services = [
 ];
 const optionalServices = ["Waterproofing & dampness treatment", "Primer application", "Wall sanding & preparation", "Enamel painting", "Ceiling painting", "Complete new building painting", "Repair & repainting", "Staircase, shop & office painting"];
 const gallery = [
-  ["Exterior transformation", image6.url, "large", "Exteriors"],
-  ["Interior wall finish", image7.url, "", "Interiors"],
-  ["Modern facade", image8.url, "", "Exteriors"],
-  ["Texture detail", image9.url, "", "Finishing"],
-  ["Wood finishing", image10.url, "", "Finishing"],
+  ["Exterior transformation", image6, "large", "Exteriors"],
+  ["Interior wall finish", image7, "", "Interiors"],
+  ["Modern facade", image8, "", "Exteriors"],
+  ["Texture detail", image9, "", "Finishing"],
+  ["Wood finishing", image10, "", "Finishing"],
 ];
 const faqs = [
   ["Do you provide both interior and exterior painting?", "Yes. We can discuss residential and commercial interior or exterior requirements during the initial conversation."],
