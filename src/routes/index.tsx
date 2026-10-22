@@ -95,9 +95,9 @@ function Index() {
 export const Route = createFileRoute("/")({
   head: () => ({ meta: [
     { title: "Wall Painting Services in Hyderabad — ColorForge Walls" },
-    { name: "description", content: "Professional painting, wall putty, texture finishes and door polishing for homes, buildings and businesses." },
+    { name: "description", content: "Professional painting, wall putty, waterproofing & floor polishing for homes, buildings in Hyderabad. 1000+ homes painted. Get free quote | ColourForge Walls" },
     { property: "og:title", content: "Wall Painting Services in Hyderabad — ColorForge Walls" },
-    { property: "og:description", content: "Professional painting and finishing solutions for homes and commercial properties." },
+    { property: "og:description", content: "Hyderabad's trusted painting service - interior,exterior,waterproofing & texture painting for homes & commerical. 1000+ homes painted." },
     { property: "og:type", content: "website" },
     { name: "twitter:card", content: "summary_large_image" },
   ] }), component: Index,
