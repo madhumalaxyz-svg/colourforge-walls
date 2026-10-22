@@ -3,12 +3,12 @@ import image1 from "@/assets/reference-1.jpg"
 import image2 from "@/assets/reference-2.jpg"
 import image3 from "@/assets/reference-3.jpg"
 import image4 from "@/assets/reference-4.jpg"
-import image5 from "@/assets/reference-5.jpg.asset.json";
-import image6 from "@/assets/reference-6.jpg.asset.json";
-import image7 from "@/assets/reference-7.jpg.asset.json";
-import image8 from "@/assets/reference-8.jpg.asset.json";
-import image9 from "@/assets/reference-9.jpg.asset.json";
-import image10 from "@/assets/reference-10.jpg.asset.json";
+import image5 from "@/assets/reference-5.jpg";
+import image6 from "@/assets/reference-6.jpg";
+import image7 from "@/assets/reference-7.jpg";
+import image8 from "@/assets/reference-8.jpg";
+import image9 from "@/assets/reference-9.jpg";
+import image10 from "@/assets/reference-10.jpg";
 import { useState, type ReactNode, type FormEvent } from "react";
 import { createFileRoute } from "@tanstack/react-router";
 import { Button } from "@/components/ui/button";
