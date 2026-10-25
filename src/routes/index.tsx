@@ -70,24 +70,7 @@ function Index() {
   const submitEstimate = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
-   const body = `*🎨 New Painting Estimate - ColourForge Walls*
-
-Hello! I would like a painting estimate.
-
-👤 *Name:* ${data.get("name")}
-📞 *Phone:* ${data.get("phone")}
-🏠 *Property:* ${data.get("property")}
-🛠️ *Service:* ${data.get("service")}
-📐 *Area / Rooms:* ${data.get("area")}
-📍 *Location:* ${data.get("location")}
-📅 *Preferred Date:* ${data.get("date")}
-📝 *Requirements:* ${data.get("requirements") || "Not provided"}
-
----
-Sent from leaseaprtment.fyi`;
-    setSent(true);
-    window.open(estimateWhatsAppUrl(body), "_blank", "noopener,noreferrer");
-  };
+   const body = `*New Estimate - ColourForge Walls*\n\nHello! I would like a painting estimate.\nName: ${data.get("name")}\nPhone: ${data.get("phone")}\nProperty: ${data.get("property")}\nService: ${data.get("service")}\nArea: ${data.get("area")}\nLocation: ${data.get("location")}\nDate: ${data.get("date")}\nRequirements: ${data.get("requirements") || "Not provided"}\n\nSent from leaseaprtment.fyi`;  };
   return <div className="site" id="top">
     <div className="topline"><span>Professional painting & finishing solutions</span><span className="topline-right"><span>Service area: {businessContact.serviceArea}</span><span className="status-dot" /> Available for enquiries</span></div>
     <header className="nav-wrap"><nav className="nav container"><Logo /><div className={`nav-links ${menu ? "open" : ""}`}><Button variant="original" onClick={() => scrollTo("#top")} data-testid="nav-home">Home</Button><Button variant="original" onClick={() => scrollTo("#services")} data-testid="nav-services">Services</Button><Button variant="original" onClick={() => scrollTo("#work")} data-testid="nav-work">Our work</Button><Button variant="original" onClick={() => scrollTo("#why-us")} data-testid="nav-why-us">Why choose us</Button><Button variant="original" onClick={() => scrollTo("#contact")} data-testid="nav-contact">Contact</Button><ActionButton testId="nav-estimate-button">Get free estimate</ActionButton></div><Button variant="original" className="menu-toggle" onClick={() => setMenu(!menu)} aria-label="Toggle navigation" data-testid="mobile-menu-button">{menu ? <X /> : <Menu />}</Button></nav></header>
