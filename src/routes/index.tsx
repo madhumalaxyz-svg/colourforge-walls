@@ -70,7 +70,21 @@ function Index() {
   const submitEstimate = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const data = new FormData(e.currentTarget);
-    const body = `Hello, I would like a painting estimate.\nName: ${data.get("name")}\nPhone: ${data.get("phone")}\nProperty: ${data.get("property")}\nService: ${data.get("service")}\nArea / rooms: ${data.get("area")}\nLocation: ${data.get("location")}\nPreferred date: ${data.get("date")}\nRequirements: ${data.get("requirements") || "Not provided"}`;
+   const body = `*🎨 New Painting Estimate - ColourForge Walls*
+
+Hello! I would like a painting estimate.
+
+👤 *Name:* ${data.get("name")}
+📞 *Phone:* ${data.get("phone")}
+🏠 *Property:* ${data.get("property")}
+🛠️ *Service:* ${data.get("service")}
+📐 *Area / Rooms:* ${data.get("area")}
+📍 *Location:* ${data.get("location")}
+📅 *Preferred Date:* ${data.get("date")}
+📝 *Requirements:* ${data.get("requirements") || "Not provided"}
+
+---
+Sent from leaseaprtment.fyi`;
     setSent(true);
     window.open(estimateWhatsAppUrl(body), "_blank", "noopener,noreferrer");
   };
