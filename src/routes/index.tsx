@@ -22,8 +22,12 @@ import {
 
 
 const PHONE = businessContact.phone;
+const PHONE2 = businessContact.phone2;
 const WHATSAPP = businessContact.whatsapp;
 const EMAIL = businessContact.email;
+const EMAIL2 = businessContact.email2;
+const PHONE_HREF = businessContact.phoneHref;
+const PHONE2_HREF = businessContact.phone2Href;
 const serviceImages = [
   image0,
   image1,
