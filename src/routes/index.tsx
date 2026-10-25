@@ -57,7 +57,7 @@ const faqs = [
   ["How long will the work take?", "Duration depends on the property size, surface condition, team, materials, and agreed scope—never a fixed promise before inspection."],
 ];
 
-function Logo() { return <a className="logo" href="#top" data-testid="brand-logo"><span className="logo-mark"><Paintbrush size={20} /></span><span><b>COAT</b><small>PAINTING STUDIO</small></span></a>; }
+function Logo() { return <a className="logo" href="#top" data-testid="brand-logo"><span className="logo-mark"><Paintbrush size={20} /></span><span><b>ColourForge</b><small>Walls</small></span></a>; }
 function ActionButton({ children, href = "#estimate", secondary = false, testId }: { children: ReactNode; href?: string; secondary?: boolean; testId?: string }) { return <Button variant="original" asChild><a className={`btn ${secondary ? "btn-secondary" : "btn-primary"}`} href={href} data-testid={testId}>{children}<ArrowUpRight size={16} /></a></Button>; }
 
 function Index() {
