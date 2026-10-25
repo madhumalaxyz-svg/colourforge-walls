@@ -19,8 +19,6 @@ import {
   Droplets, Hammer, House, Mail, Menu, MessageCircle, Paintbrush,
   Phone, ShieldCheck, Sparkles, Star, X, Zap
 } from "lucide-react";
-
-
 const PHONE = businessContact.phone;
 const PHONE2 = businessContact.phone2;
 const WHATSAPP = businessContact.whatsapp;
