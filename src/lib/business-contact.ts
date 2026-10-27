@@ -9,7 +9,7 @@ export const businessContact = {
   phoneHref: "tel:+917660962951",
   phone2Href: "tel:+916300755329",
   whatsappUrl: "https://wa.me/917660962951",
-  emailHref: "mailto:malkaiahpainter@gmail.com",
+  emaillHref: "mailto:malkaiahpainter@gmail.com",
   email2Href: "mailto:madhu6300755@gmail.com",
 };
 
